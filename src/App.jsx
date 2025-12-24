@@ -2,7 +2,7 @@ import React from 'react'
 import NavBar from './components/NavBar'
 import ViewPaste from './components/ViewPaste'
 import Home from './components/Home'
-import Paste from './components/paste'
+import Paste from './components/Paste'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 
 const router = createBrowserRouter([
