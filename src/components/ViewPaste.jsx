@@ -48,14 +48,14 @@ const ViewPaste = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="flex flex-col border-2 justify-center rounded-2xl rounded-b-none mt-[10vh] h-[70vh] bg-[#9fe6e8] w-[110vh]">
+        <div className="flex flex-col border-4 border-gray-700 justify-center rounded-2xl rounded-b-none mt-[10vh] h-[70vh] bg-[#9fe6e8] w-[110vh]">
           <div className="w-full h-[7vh] rounded-2xl flex gap-[1vh] justify-start items-center">
             <div className="h-[3vh] w-[3vh] bg-rose-400 rounded-full ml-[2vh]" />
             <div className="h-[3vh] w-[3vh] bg-yellow-400 rounded-full" />
             <div className="h-[3vh] w-[3vh] bg-green-400 rounded-full" />
           </div>
 
-          <div className="flex border border-black border-r-0 rounded-l-xl rounded-b-none w-full h-[70vh] overflow-hidden">
+          <div className="flex border border-black border-r-0  rounded-b-none w-full h-[70vh] overflow-hidden">
             <div
               ref={lineRef}
               className="bg-[#0f1210] text-green-500 text-right px-2 py-2 select-none overflow-hidden"
@@ -75,7 +75,8 @@ const ViewPaste = () => {
               onScroll={handleScroll}
               rows={20}
               disabled
-              className="w-full resize-none outline-none px-2 py-2 leading-6 bg-[#ecf0f4]"
+              className="w-full resize-none outline-none px-2 py-2 leading-6  bg-white bg-[radial-gradient(circle,var(--color-neutral-200)_1px,transparent_1px)]
+        bg-size-[10px_10px]"
             />
           </div>
         </div>
