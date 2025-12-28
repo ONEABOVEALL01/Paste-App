@@ -36,7 +36,7 @@ const ViewPaste = () => {
 
   return (
     <div>
-      <div className="flex justify-center">
+      <div className="flex justify-center ">
         <input
           className="border mt-[5vh] h-[6vh] w-[80vh] bg-[#fcfcfc] p-[2vh] border-black rounded-2xl"
           type="text"
