@@ -35,7 +35,7 @@ const formatted = date.toLocaleString("en-IN", {
 });
 
   return (
-    <div>
+    <div className=" bg-white bg-[linear-gradient(to_right,#f0f0f0_1px,transparent_1px),linear-gradient(to_bottom,#f0f0f0_1px,transparent_1px)] bg-size-[6rem_4rem]">
       <div className="flex justify-center">
         <input
           className="w-[80vh] border pl-[2vh] h-[6vh] border-black rounded-xl mt-[8vh] bg-white"
@@ -46,7 +46,7 @@ const formatted = date.toLocaleString("en-IN", {
         />
       </div>
 
-      <div className="flex flex-col w-[100vh] justify-center ml-[50vh] gap-5 mt-[5vh]">
+      <div className="flex flex-col w-[100vh] justify-center ml-[50vh] gap-5 mt-[5vh] ">
         {filteredData.length > 0 &&
           filteredData.map((paste) => {
             return (
